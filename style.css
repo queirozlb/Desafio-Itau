@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.logo {
+  max-width: 60px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  margin-bottom: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.fontes {
+  color: #132C33;
+}
+
+.fontesDiv {
+  margin-top: 2%;
+}
+
+.header {
+  background: #132C33;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background: #9FB8AD;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.imagemCapa {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  color: #132C33;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  color: #132C33;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #132C33;
+  margin-top: 2%;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: #132C33;
+}
+
+.activePage {
+  background: #9FB8AD;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.conteudo {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.cabecalho-topico {
+  margin-top: 3rem;
+  padding: 1%;
+}
+
+.linkFonte:hover {
+  display: block;
+  padding: 1.5%;
+  color: #aab9b3;
+  background: #305c6e;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.formContato > iframe {
+  width: 100%;
+  height: 800px!important;
+  margin-top: 3%;
+}
+
+.conteudoVideo {
+  display: inline-flex;
+  column-gap: 5rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.cardVideo {
+  padding: 1%;
+  width: 50%;
+  text-align: center;
+}
+
+.cardVideo > iframe {
+  width: 100%;
+  height: 300px!important;
+  margin-top: 3%;
+}
+
+.tituloNews {
+  font-weight: bold;
+  color: #132C33;
+}
+
+.descNews > iframe {
+  width: 100%;
+  height: 250px!important;
+  margin-top: 5%;
+}
+
+.noticiasCards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1%;
+}
+
+.descNews {
+  margin: 2%;
+  padding: 2%;
+  width: 50%;
+  text-align: center;
+  background-color: #aab9b3 ;
+  border-radius: 10px;
+  border: silver;
+  box-shadow: rgb(115, 115, 115) 1px 3px 5px ; 
+}
+
+.textNews{
+  text-align: center;
+  padding: 2%;
+  font-weight: lighter;
+  font-size: 1.2rem ;
+  color: #132C33;
+}
+
+.footer {
+  padding: 1% ;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background-color: #132C33;
+  color: #aab9b3;
+  text-align: center;
+}
+
+.linkedin {
+  color: #132C33;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.imagemLinkedin {
+  width: 60 px;
+  height: 60 px;
+}
